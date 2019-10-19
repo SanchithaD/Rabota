@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFECA99D22E3E481000146D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA99C22E3E481000146D3 /* AppDelegate.swift */; };
+		BFECA99F22E3E481000146D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA99E22E3E481000146D3 /* SceneDelegate.swift */; };
+		BFECA9A122E3E481000146D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9A022E3E481000146D3 /* ContentView.swift */; };
+		BFECA9A322E3E484000146D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFECA9A222E3E484000146D3 /* Assets.xcassets */; };
+		BFECA9A622E3E484000146D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFECA9A522E3E484000146D3 /* Preview Assets.xcassets */; };
+		BFECA9A922E3E484000146D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFECA9A722E3E484000146D3 /* LaunchScreen.storyboard */; };
+		BFECA9B422E3E485000146D3 /* RabotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9B322E3E485000146D3 /* RabotaTests.swift */; };
+		BFECA9BF22E3E485000146D3 /* RabotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9BE22E3E485000146D3 /* RabotaUITests.swift */; };
+		BFECA9CD22E3E497000146D3 /* JobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9CC22E3E497000146D3 /* JobList.swift */; };
+		BFECA9CF22E3E4B4000146D3 /* LabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9CE22E3E4B4000146D3 /* LabelTextField.swift */; };
+		BFECA9D122E3E4C1000146D3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9D022E3E4C0000146D3 /* RoundedButton.swift */; };
+		BFECA9D322E3E4CD000146D3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECA9D222E3E4CD000146D3 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFECA9B022E3E485000146D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFECA99122E3E481000146D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFECA99822E3E481000146D3;
+			remoteInfo = Rabota;
+		};
+		BFECA9BB22E3E485000146D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFECA99122E3E481000146D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFECA99822E3E481000146D3;
+			remoteInfo = Rabota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFECA99922E3E481000146D3 /* Rabota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rabota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFECA99C22E3E481000146D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFECA99E22E3E481000146D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFECA9A022E3E481000146D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFECA9A222E3E484000146D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFECA9A522E3E484000146D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFECA9A822E3E484000146D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFECA9AA22E3E484000146D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFECA9AF22E3E485000146D3 /* RabotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFECA9B322E3E485000146D3 /* RabotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabotaTests.swift; sourceTree = "<group>"; };
+		BFECA9B522E3E485000146D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFECA9BA22E3E485000146D3 /* RabotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFECA9BE22E3E485000146D3 /* RabotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabotaUITests.swift; sourceTree = "<group>"; };
+		BFECA9C022E3E485000146D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFECA9CC22E3E497000146D3 /* JobList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobList.swift; sourceTree = "<group>"; };
+		BFECA9CE22E3E4B4000146D3 /* LabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTextField.swift; sourceTree = "<group>"; };
+		BFECA9D022E3E4C0000146D3 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		BFECA9D222E3E4CD000146D3 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFECA99622E3E481000146D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECA9AC22E3E485000146D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECA9B722E3E485000146D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFECA99022E3E481000146D3 = {
+			isa = PBXGroup;
+			children = (
+				BFECA99B22E3E481000146D3 /* Rabota */,
+				BFECA9B222E3E485000146D3 /* RabotaTests */,
+				BFECA9BD22E3E485000146D3 /* RabotaUITests */,
+				BFECA99A22E3E481000146D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFECA99A22E3E481000146D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFECA99922E3E481000146D3 /* Rabota.app */,
+				BFECA9AF22E3E485000146D3 /* RabotaTests.xctest */,
+				BFECA9BA22E3E485000146D3 /* RabotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFECA99B22E3E481000146D3 /* Rabota */ = {
+			isa = PBXGroup;
+			children = (
+				BFECA99C22E3E481000146D3 /* AppDelegate.swift */,
+				BFECA99E22E3E481000146D3 /* SceneDelegate.swift */,
+				BFECA9CC22E3E497000146D3 /* JobList.swift */,
+				BFECA9CE22E3E4B4000146D3 /* LabelTextField.swift */,
+				BFECA9A022E3E481000146D3 /* ContentView.swift */,
+				BFECA9D222E3E4CD000146D3 /* MapView.swift */,
+				BFECA9A222E3E484000146D3 /* Assets.xcassets */,
+				BFECA9D022E3E4C0000146D3 /* RoundedButton.swift */,
+				BFECA9A722E3E484000146D3 /* LaunchScreen.storyboard */,
+				BFECA9AA22E3E484000146D3 /* Info.plist */,
+				BFECA9A422E3E484000146D3 /* Preview Content */,
+			);
+			path = Rabota;
+			sourceTree = "<group>";
+		};
+		BFECA9A422E3E484000146D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFECA9A522E3E484000146D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFECA9B222E3E485000146D3 /* RabotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFECA9B322E3E485000146D3 /* RabotaTests.swift */,
+				BFECA9B522E3E485000146D3 /* Info.plist */,
+			);
+			path = RabotaTests;
+			sourceTree = "<group>";
+		};
+		BFECA9BD22E3E485000146D3 /* RabotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFECA9BE22E3E485000146D3 /* RabotaUITests.swift */,
+				BFECA9C022E3E485000146D3 /* Info.plist */,
+			);
+			path = RabotaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFECA99822E3E481000146D3 /* Rabota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFECA9C322E3E485000146D3 /* Build configuration list for PBXNativeTarget "Rabota" */;
+			buildPhases = (
+				BFECA99522E3E481000146D3 /* Sources */,
+				BFECA99622E3E481000146D3 /* Frameworks */,
+				BFECA99722E3E481000146D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rabota;
+			productName = Rabota;
+			productReference = BFECA99922E3E481000146D3 /* Rabota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFECA9AE22E3E485000146D3 /* RabotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFECA9C622E3E485000146D3 /* Build configuration list for PBXNativeTarget "RabotaTests" */;
+			buildPhases = (
+				BFECA9AB22E3E485000146D3 /* Sources */,
+				BFECA9AC22E3E485000146D3 /* Frameworks */,
+				BFECA9AD22E3E485000146D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFECA9B122E3E485000146D3 /* PBXTargetDependency */,
+			);
+			name = RabotaTests;
+			productName = RabotaTests;
+			productReference = BFECA9AF22E3E485000146D3 /* RabotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFECA9B922E3E485000146D3 /* RabotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFECA9C922E3E485000146D3 /* Build configuration list for PBXNativeTarget "RabotaUITests" */;
+			buildPhases = (
+				BFECA9B622E3E485000146D3 /* Sources */,
+				BFECA9B722E3E485000146D3 /* Frameworks */,
+				BFECA9B822E3E485000146D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFECA9BC22E3E485000146D3 /* PBXTargetDependency */,
+			);
+			name = RabotaUITests;
+			productName = RabotaUITests;
+			productReference = BFECA9BA22E3E485000146D3 /* RabotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFECA99122E3E481000146D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Sanchitha;
+				TargetAttributes = {
+					BFECA99822E3E481000146D3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BFECA9AE22E3E485000146D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BFECA99822E3E481000146D3;
+					};
+					BFECA9B922E3E485000146D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BFECA99822E3E481000146D3;
+					};
+				};
+			};
+			buildConfigurationList = BFECA99422E3E481000146D3 /* Build configuration list for PBXProject "Rabota" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFECA99022E3E481000146D3;
+			productRefGroup = BFECA99A22E3E481000146D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFECA99822E3E481000146D3 /* Rabota */,
+				BFECA9AE22E3E485000146D3 /* RabotaTests */,
+				BFECA9B922E3E485000146D3 /* RabotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFECA99722E3E481000146D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFECA9A922E3E484000146D3 /* LaunchScreen.storyboard in Resources */,
+				BFECA9A622E3E484000146D3 /* Preview Assets.xcassets in Resources */,
+				BFECA9A322E3E484000146D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECA9AD22E3E485000146D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECA9B822E3E485000146D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFECA99522E3E481000146D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFECA9D322E3E4CD000146D3 /* MapView.swift in Sources */,
+				BFECA99D22E3E481000146D3 /* AppDelegate.swift in Sources */,
+				BFECA9D122E3E4C1000146D3 /* RoundedButton.swift in Sources */,
+				BFECA99F22E3E481000146D3 /* SceneDelegate.swift in Sources */,
+				BFECA9A122E3E481000146D3 /* ContentView.swift in Sources */,
+				BFECA9CD22E3E497000146D3 /* JobList.swift in Sources */,
+				BFECA9CF22E3E4B4000146D3 /* LabelTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECA9AB22E3E485000146D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFECA9B422E3E485000146D3 /* RabotaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECA9B622E3E485000146D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFECA9BF22E3E485000146D3 /* RabotaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFECA9B122E3E485000146D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFECA99822E3E481000146D3 /* Rabota */;
+			targetProxy = BFECA9B022E3E485000146D3 /* PBXContainerItemProxy */;
+		};
+		BFECA9BC22E3E485000146D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFECA99822E3E481000146D3 /* Rabota */;
+			targetProxy = BFECA9BB22E3E485000146D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFECA9A722E3E484000146D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFECA9A822E3E484000146D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFECA9C122E3E485000146D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFECA9C222E3E485000146D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFECA9C422E3E485000146D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Rabota/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rabota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..Rabota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFECA9C522E3E485000146D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Rabota/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rabota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..Rabota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFECA9C722E3E485000146D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RabotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..RabotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rabota.app/Rabota";
+			};
+			name = Debug;
+		};
+		BFECA9C822E3E485000146D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RabotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..RabotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rabota.app/Rabota";
+			};
+			name = Release;
+		};
+		BFECA9CA22E3E485000146D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RabotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..RabotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rabota;
+			};
+			name = Debug;
+		};
+		BFECA9CB22E3E485000146D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RabotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..RabotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rabota;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFECA99422E3E481000146D3 /* Build configuration list for PBXProject "Rabota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFECA9C122E3E485000146D3 /* Debug */,
+				BFECA9C222E3E485000146D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFECA9C322E3E485000146D3 /* Build configuration list for PBXNativeTarget "Rabota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFECA9C422E3E485000146D3 /* Debug */,
+				BFECA9C522E3E485000146D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFECA9C622E3E485000146D3 /* Build configuration list for PBXNativeTarget "RabotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFECA9C722E3E485000146D3 /* Debug */,
+				BFECA9C822E3E485000146D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFECA9C922E3E485000146D3 /* Build configuration list for PBXNativeTarget "RabotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFECA9CA22E3E485000146D3 /* Debug */,
+				BFECA9CB22E3E485000146D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFECA99122E3E481000146D3 /* Project object */;
+}
